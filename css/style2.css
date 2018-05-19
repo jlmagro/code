@@ -1,0 +1,104 @@
+body{
+    height: 100%;
+}
+/* Close Button*/
+.close-button-container{
+    z-index: 2000;
+    padding: 15px 15px 0;
+}
+.close-button-container .close-button{
+    background-color: #FEFF00;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+.close-button-container .close-button i {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #1D1D1D;
+}
+
+/* Work Photo */
+.work-photo{
+    height: 250px;
+    background-image: url("../assets/imgs/color-photos/work-card-1.png");
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.work-name{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1D1D1D;
+    line-height: 25px;
+}
+.work-name p{
+    margin: 0;
+}
+.work-name span {
+    font-size: 13px;
+    color: #BABABA;
+    font-weight: 400;
+}
+
+/* Work description */
+.work-description{
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+.work-description p{
+    margin: 0;
+    margin-bottom: 25px;
+}
+.work-description a{
+    font-size: 10px;
+    font-family: 'Space Mono', monospace;
+    color: #1D1D1D;
+    text-decoration: underline;
+}
+
+/* Work photo */
+.work-mockup{
+    height: 500px;
+    background-image: url("../assets/imgs/works/comidagratis.png");
+    background-size: cover;
+    margin-top: 70px;
+}
+
+/* Next Work */
+.next-work{
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 130px;
+}
+.next-work a{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #1D1D1D;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width : 992px) {
+    /*Work Page*/
+    .work-photo{
+        position: relative;
+        height: 67em;
+        margin-bottom: 30px;
+        z-index: -2000;
+    }
+
+    .work-name{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .work-name span {
+        font-size: 17px;
+    }
+}

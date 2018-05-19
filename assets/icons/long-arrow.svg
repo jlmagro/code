@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrows-down" fill="#000000" fill-rule="nonzero">
+            <g id="arrows">
+                <g id="arrow-down" transform="translate(4.200000, 7.000000) rotate(-270.000000) translate(-4.200000, -7.000000) translate(-2.000000, 3.000000)">
+                    <g id="Group" transform="translate(0.000000, 0.127564)">
+                        <path d="M12.399966,3.87242 C12.399966,3.77986 12.343986,3.65696 12.287186,3.59732 L9.08725,0.197268 C8.937852,0.042808 8.695812,0.024908 8.521632,0.181668 C8.365912,0.321808 8.362032,0.595128 8.506032,0.747308 L11.074726,3.47234 L0.400034,3.47234 C0.179114,3.47234 3.4e-05,3.65142 3.4e-05,3.87234 C3.4e-05,4.09326 0.179114,4.27236 0.400034,4.27236 L11.074726,4.27236 L8.506032,6.9974 C8.362052,7.14956 8.372272,7.41616 8.521632,7.56302 C8.679332,7.71806 8.940132,7.70426 9.08725,7.54742 L12.287186,4.14738 C12.381206,4.05516 12.398386,3.96634 12.399966,3.87242 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
