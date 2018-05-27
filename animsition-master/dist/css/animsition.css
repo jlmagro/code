@@ -24,25 +24,21 @@
   background-color: #ddd;
 }
 /* loading option */
+/*
 .animsition-loading,
 .animsition-loading:after {
-  /*
   width: 32px;
   height: 32px;
-  */
   position: fixed;
   top: 50%;
   left: 50%;
-  /*
   margin-top: -16px;
   margin-left: -16px;
-  */
-  transform: translate(-50%,-50%);
   border-radius: 50%;
   z-index: 100;
 }
 
-.animsition-loading {/*
+.animsition-loading {
   background-color: transparent;
   border-top: 5px solid rgba(0, 0, 0, 0.2);
   border-right: 5px solid rgba(0, 0, 0, 0.2);
@@ -58,10 +54,9 @@
           animation-duration: .8s;
   -webkit-animation-name: animsition-loading;
           animation-name: animsition-loading;
-          */
 
 }
-/*
+
 @-webkit-keyframes animsition-loading {
   0% {
     -webkit-transform: rotate(0deg);
@@ -84,7 +79,6 @@
   }
 }
 */
-
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;

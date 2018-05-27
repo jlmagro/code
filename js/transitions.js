@@ -1,16 +1,16 @@
 $(document).ready(function() {
     $(".animsition").animsition({
-        inClass: 'zoom-in',
-        outClass: 'zoom-out',
-        inDuration: 1500,
+        inClass: 'fade-in',
+        outClass: 'fade-out',
+        inDuration: 3000,
         outDuration: 800,
         linkElement: '.animsition-link',
         // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-        loading: true,
+        loading: false,
         loadingParentElement: 'body', //animsition wrapper element
-        loadingClass: 'animsition-loading',
+        loadingClass: '.animsition-loading',
         loadingInner: '', // e.g '<img src="loading.svg" />'
-        timeout: true,
+        timeout: false,
         timeoutCountdown: 5000,
         onLoadEvent: true,
         browser: [ 'animation-duration', '-webkit-animation-duration'],

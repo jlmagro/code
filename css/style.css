@@ -6,6 +6,9 @@
 /*****************************
     Initial block of text
 *****************************/
+.container-hidden{
+    display: none;
+}
 .block-text{
     margin-top: 50px;
 }

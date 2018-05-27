@@ -14,86 +14,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="../Desktop/portfoliio/code/assets/icons/favicon.png">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="transition.css">
     <!-- animsition.css -->
-    <link rel="stylesheet" href="../Desktop/portfoliio/code/animsition-master/dist/css/animsition.css">
+    <link rel="stylesheet" href="animsition-master/dist/css/animsition.css">
 </head>
 <body>
 
-
-<div class="work-photo">
-    <div class="close-button-container">
-        <a href="#"><div class="close-button"><i class="material-icons">close</i></div></a>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12 work-name"><p><span>Landing Page</span><br>Comida Grátis Online</p></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-offset-3 col-md-6 col-md-offset-3 work-description">
-            <p>This is a simple project with the purpose of gathering leads for marketing campaigns</p>
-            <a href="#">visit website</a>
-        </div>
-
-        <div class="col-xs-12 col-md-12 work-mockup"></div>
-        <div class="col-xs-12 next-work"><a href="#">next one</a></div>
-    </div>
-</div>
-
-<!--
 <div class="animsition">
-    <div class="container">
+    <div class="work-photo">
+        <div class="close-button-container">
+            <a href="main.html#impacting-selection" class="animsition-link" data-animsition-in-class="fade-in" data-animsition-in-duration="800" data-animsition-out-class="fade-out" data-animsition-out-duration="300"><div class="close-button"><i class="material-icons">close</i></div></a>
+        </div>
+    </div>
 
+    <div class="container">
         <div class="row">
             <div class="col-xs-12 work-name"><p><span>Landing Page</span><br>Comida Grátis Online</p></div>
         </div>
         <div class="row">
-            <div class="col-xs-12 work-description">
+            <div class="col-xs-12 col-md-offset-3 col-md-6 col-md-offset-3 work-description">
                 <p>This is a simple project with the purpose of gathering leads for marketing campaigns</p>
-                <a href="#">visit website</a>
+                <a href="https://invis.io/V6J5JDZ49A7#/292377384_Desktop_Copy_4">visit website</a>
             </div>
-            <div class="col-xs-12 work-mockup"></div>
-        </div>
 
-    </div>
-</div>
--->
-
-<!--
-<div class="animsition">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 close-button-container">
-                <a href="index.html#work1" class="animsition-link work-page" data-animsition-in-class="zoom-in" data-animsition-in-duration="800" data-animsition-out-class="zoom-out" data-animsition-out-duration="300"><div class="close-button"><i class="material-icons">close</i></div></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 work-photo"></div>
-            <div class="col-xs-12 work-name"><p><span>Landing Page</span><br>Comida Grátis Online</p></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 work-description">
-                <p>This is a simple project with the purpose of gathering leads for marketing campaigns</p>
-                <a href="#">visit website</a>
-            </div>
-            <div class="col-xs-12 work-mockup"></div>
-        </div>
-        <div class="row">
+            <div class="col-xs-12 col-md-12 work-mockup"></div>
             <div class="col-xs-12 next-work"><a href="#">next one</a></div>
         </div>
     </div>
 </div>
--->
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="../Desktop/portfoliio/code/animsition-master/dist/js/animsition.min.js"></script>
-<script src="../Desktop/portfoliio/code/js/transitions.js"></script>
-<script src="../Desktop/portfoliio/code/js/main.js"></script>
+<script src="animsition-master/dist/js/animsition.min.js"></script>
+<script src="js/transitions.js"></script>
 
+<script>
+    $(document).ready(function() {
+        $('.animsition').animsition();
+    });
+</script>
+<!--
 <div class="animsition-loading">
     <div class="loader">
         <span class="loader-item"></span>
@@ -108,6 +68,6 @@
         <span class="loader-item"></span>
     </div>
 </div>
-
+-->
 </body>
 </html>

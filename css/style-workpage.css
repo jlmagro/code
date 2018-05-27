@@ -1,6 +1,9 @@
 body, html {
     height: 100%;
 }
+.animsition{
+    height: 100%;
+}
 /* Close Button*/
 .close-button-container{
     position: fixed;
@@ -27,7 +30,7 @@ body, html {
     background-image: url("../assets/imgs/color-photos/work-card-1.png");
 
     /* Set a specific height */
-    height: 230px;
+    height: 230px !important;
 
     /* Position and center the image to scale nicely on all screens */
     background-position: bottom;
@@ -72,7 +75,7 @@ body, html {
 }
 /* Work photo */
 .work-mockup{
-    height: 500px;
+    height: 590px;
     background-image: url("../assets/imgs/works/comidagratis.png");
     background-size: cover;
     margin-top: 70px;
@@ -103,7 +106,7 @@ body, html {
         padding: 5px;
     }
     .work-photo{
-        height: 85%;
+        height: 85% !important;
     }
     /* Work Details*/
     .work-name{
