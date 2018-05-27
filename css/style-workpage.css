@@ -1,6 +1,11 @@
 body, html {
     height: 100%;
+    overflow-x: hidden;
 }
+.destkop{
+display: none;
+}
+
 .animsition{
     height: 100%;
 }
@@ -27,7 +32,7 @@ body, html {
 /* Hero Image*/
 .work-photo{
     /* The image used */
-    background-image: url("../assets/imgs/color-photos/work-card-1.png");
+    background-image: url("../assets/imgs/comida_gratis/work-card-1.png");
 
     /* Set a specific height */
     height: 230px !important;
@@ -74,17 +79,38 @@ body, html {
     text-decoration: underline;
 }
 /* Work photo */
-.work-mockup{
-    height: 590px;
-    background-image: url("../assets/imgs/works/comidagratis.png");
-    background-size: cover;
+.work-wrapper{
+    position: relative;
     margin-top: 70px;
+}
+.work-wrapper img{
+    width: 100%;
+}
+.work-wrapper .background{
+    position: absolute;
+    background-color: #1D1D1D;
+    height: 85%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+
+    bottom: 0;
+    z-index: -1;
+}
+.work-wrapper .text-center{
+    padding: 50px 0 90px;
+}
+.work-wrapper a{
+    font-size: 13px;
+    font-family: 'Space Mono', monospace;
+    color: #1D1D1D;
+    text-decoration: underline;
 }
 /*  Next Work */
 .next-work{
-    margin-top: 90px;
+    margin-top: 70px;
     text-align: center;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
 }
 .next-work a{
     font-family: 'Archivo Black', sans-serif;
@@ -97,6 +123,11 @@ body, html {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .destkop{
+        display: block;
+    }
+
+
     .close-button-container .close-button{
         width: 45px;
         height: 45px;
@@ -108,14 +139,21 @@ body, html {
     .work-photo{
         height: 85% !important;
     }
+    .arrow-container-workpage{
+        margin-top: 75px;
+    }
+    .arrow-container-workpage img{
+        height: 20px;
+        padding-right: 10px;
+    }
     /* Work Details*/
     .work-name{
-        margin: 40px 0 100px;
-        font-size: 30px;
-        line-height: 38px;
+        margin: 200px 0 125px;
+        font-size: 55px;
+        line-height: 65px;
     }
     .work-name span {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .work-description{
@@ -128,13 +166,31 @@ body, html {
     .work-description a{
         font-size: 13px;
     }
-    .work-mockup{
-        height: 1840px;
+
+
+    .work-wrapper .background{
+        width: 200%;
+    }
+    .work-wrapper .text-center{
+        padding: 80px 0 120px;
+    }
+
+    .work-wrapper a{
+        font-size: 16px;
+        font-family: 'Space Mono', monospace;
+        color: #1D1D1D;
+        text-decoration: underline;
+    }
+
+
+    .work-mockup-container{
+        position: relative;
+        height: 2150px;
         margin-top: 70px;
     }
     .next-work{
-        margin-top: 90px;
-        padding-bottom: 130px;
+        margin-top: 100px;
+        padding-bottom: 100px;
     }
     .next-work a{
         font-size: 50px;
