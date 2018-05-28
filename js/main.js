@@ -16,6 +16,9 @@ $(function() {
 
 });
 
+//animação das barras da foto
+
+
 $(document).ready(function() {
     $('.animsition').animsition();
 });
@@ -35,13 +38,11 @@ function downArrow() {
     setTimeout('downArrow()', 700);
 }
 
-//animação das barras da foto
 window.sr = ScrollReveal({ reset: true });
 sr.reveal('.box1', { duration: 500 });
 sr.reveal('.box2', { duration: 600 });
 sr.reveal('.box3', { duration: 700 });
 sr.reveal('.box4', { duration: 800 });
-sr.reveal('.box5', { duration: 600 });
 
 //configuração do email
 function sendEmail()

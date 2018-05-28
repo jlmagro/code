@@ -57,19 +57,18 @@
 }
 .work-card-container .photo-container{
     position: relative;
-    background-image: url("../assets/imgs/work-card-1.png");
     height: 200px;
     background-size: cover;
     padding: 15px;
 }
 #photo-impacting{
-    background-image: url("../assets/imgs/work-card-2.png");
+    background-image: url("../assets/imgs/main_page/work-card-2.png");
 }
 #photo-impordance{
-    background-image: url("../assets/imgs/work-card-3.png");
+    background-image: url("../assets/imgs/main_page/work-card-3.png");
 }
 #photo-comida{
-    background-image: url("../assets/imgs/work-card-1.png");
+    background-image: url("../assets/imgs/main_page/work-card-1.png");
 }
 .work-card-container .photo-container .bar-container{
     position: absolute;
